@@ -1,0 +1,102 @@
+﻿.final {
+    display: flex;
+    margin-top: 300px;
+    background-color: rgba(13,110,139,0.75);
+    left: 10px;
+    right: 10px;
+    width: 100%;
+}
+
+    .final > div img {
+        width: 800px;
+        margin-top: 50px;
+        border-radius: 5px;
+        transform: skew(-2deg);
+    }
+
+#final-img {
+    display: flex;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#back-input {
+    position: absolute;
+    background-color: #f8f2f2;
+    width: 410px;
+    height: 448px;
+    margin-top: 50px;
+    opacity: .75;
+    transform: skew(-2deg);
+}
+
+#p-final {
+    color: #1c805b;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font: bold;
+}
+
+#fname {
+    width: 80%;
+    height: 50px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid #fff;
+    display: inline-block;
+}
+
+#lname {
+    width: 80%;
+    height: 50px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid #fff;
+    display: inline-block;
+}
+
+.hvr-box-shadow-outset {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+}
+
+    .hvr-box-shadow-outset:hover, .hvr-box-shadow-outset:focus, .hvr-box-shadow-outset:active {
+        box-shadow: 2px 2px 2px rgb(255, 106, 0);
+    }
+
+#female {
+    float: right;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+#male {
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#next-step {
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: #1c805b;
+    border-radius: 20px;
+    color: white;
+    margin-left: 20px;
+}
